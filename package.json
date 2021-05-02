@@ -2,8 +2,13 @@
   "name": "tools-install",
   "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "./npm/run.js",
+  "bin": {
+    "tools-install": "./npm/run.js"
+  },
   "scripts": {
+    "postinstall": "node ./npm/install.js",
+    "preinstall": "node ./npm/uninstall.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +24,8 @@
   "homepage": "https://github.com/ahelja/tools-install#readme",
   "dependencies": {
     "binary-install": "^0.1.1"
-  }
+  },
+  "files": [
+    "npm/**/*"
+  ]
 }
