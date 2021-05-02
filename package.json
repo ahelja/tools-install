@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ahelja/tools-install/issues"
   },
-  "homepage": "https://github.com/ahelja/tools-install#readme"
+  "homepage": "https://github.com/ahelja/tools-install#readme",
+  "dependencies": {
+    "binary-install": "^0.1.1"
+  }
 }
