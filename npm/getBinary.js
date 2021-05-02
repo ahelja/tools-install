@@ -16,7 +16,7 @@ function getBinary() {
     const platform = getPlatform();
     const version = require('../package.json').version;
     const url = `https://github.com/ahelja/tools-install/releases/download/v${ version }/tools-install-${ platform }.tar.gz`;
-    const name = 'tools-install';
+    const name = `tools-install-${ platform }`;
     return new Binary(name, url);
 }
 
