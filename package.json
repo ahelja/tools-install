@@ -1,6 +1,6 @@
 {
   "name": "tools-install",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "This package doesn't really do much. I'm just testing how to upload node packages and update their versions",
   "main": "./npm/run.js",
   "bin": {
